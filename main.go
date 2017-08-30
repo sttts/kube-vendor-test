@@ -1,7 +1,7 @@
 package main
 
 import (
-	_ "k8s.io/kube-aggregator/pkg/apiserver"
+	_ "k8s.io/client-go/kubernetes"
 )
 
 func main() {
