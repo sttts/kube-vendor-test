@@ -5,22 +5,27 @@
 
 [[constraint]]
   name = "k8s.io/apiserver"
+  version = "kubernetes-1.9.4"
   source = "github.com/sttts/apiserver"
 
 [[constraint]]
   name = "k8s.io/apimachinery"
+  version = "kubernetes-1.9.4"
   source = "github.com/sttts/apimachinery"
 
 [[constraint]]
   name = "k8s.io/client-go"
+  version = "kubernetes-1.9.4"
   source = "github.com/sttts/client-go"
 
 [[constraint]]
   name = "k8s.io/code-generator"
+  version = "kubernetes-1.9.4"
   source = "github.com/sttts/code-generator"
 
 [[constraint]]
   name = "k8s.io/api"
+  version = "kubernetes-1.9.4"
   source = "github.com/sttts/api"
 
 # Gopkg.toml example
